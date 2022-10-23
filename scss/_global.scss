@@ -8,29 +8,46 @@ html {
 *::after {
   box-sizing: inherit;
 }
-body{
+
+body {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
-ul,ol{
+
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-a{
+
+a {
   display: inline-block;
   text-decoration: none;
 }
-img{
+
+img {
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
-.container{
-  max-width: 100%;
-  width: 100%;
+
+.container {
+  max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
 }
+
+
+
+
