@@ -70,7 +70,7 @@ header {
 
 .header___menu-label::after {
   content: "";
-  background-image: url('../../img/header__menu.svg');
+  background-image: url('../img/header__menu.svg');
   background-repeat: no-repeat;
   width: 17px;
   height: 17px;
@@ -90,7 +90,7 @@ header {
 
 .header__menu-input:checked + .header___menu-label::after{
   background-image: none;
-  background-image: url('../../img/header-icon.svg');
+  background-image: url('../img/header-icon.svg');
   background-repeat: no-repeat;
   background-color: #fff;
 }
