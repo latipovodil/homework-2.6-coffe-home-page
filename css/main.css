@@ -716,4 +716,98 @@ header {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  background-color: #2C343E;
+}
+
+.footer__link {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+  padding: 18px 25px;
+  border-radius: 10px;
+}
+
+.footer__menu-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__company-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__text + .footer__text {
+  margin-left: 33px;
+}
+
+.footer__company + .footer__company {
+  margin-left: 24px;
+}
+
+.footer__link:hover {
+  background-color: #333D4B;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  color: #000;
+}
+
+.footer__link:active {
+  background-color: #FDD6BA;
+  color: #000;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__logo {
+    margin-bottom: 32px;
+  }
+  .footer__menu-box {
+    margin-bottom: 65px;
+  }
+  .footer__text + .footer__text {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer__menu-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__text + .footer__text {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
