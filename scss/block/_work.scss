@@ -1,0 +1,140 @@
+
+.work__container {
+  max-width: 1045px;
+  text-align: center;
+}
+
+.work {
+  padding-bottom: 200px;
+}
+
+.work__title {
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 80px;
+}
+
+.work__dash {
+  display: flex;
+  max-width: 760px;
+  position: relative;
+  margin-bottom: 82px;
+  justify-content: space-between;
+}
+
+.work__dash::before {
+  position: absolute;
+  bottom: 15.5px;
+  z-index: -1;
+  width: 100%;
+  height: 2px;
+  background-color: #fdd6ba;
+  content: "";
+}
+
+.work__span {
+  width: 31px;
+  height: 31px;
+  background: #fefcf7;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.work__number {
+  font-style: normal;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 38px;
+}
+
+.work__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 64px;
+}
+
+.work__item {
+  max-width: 285px;
+  border: 3px solid transparent;
+  margin-bottom: 64px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.work__task {
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 42px;
+  max-width: 255px;
+  height: 73px;
+}
+.button {
+  color: #fefcf7;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  background: #0e8784;
+  border-radius: 6px;
+  padding: 15px 30px;
+}
+
+.button:hover {
+  background: #66d2cf;
+}
+
+.button:active {
+  background: #e2dedb;
+}
+
+.work__item:hover {
+  background-color: #333d4b;
+}
+
+.work__item {
+  transition-timing-function: linear;
+  transition-duration: .5s;
+}
+
+.work__item:hover .work__task,
+.work__item:hover .work__text {
+  color: #fff;
+}
+
+.work__text {
+  font-family: "Barlow";
+  max-width: 285px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.work__title:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+@media only screen and (max-width:900px){
+  .work__dash{
+    display: none;
+  }
+  .work__list{
+    display: block;
+    text-align: center;
+  }
+
+  .work__item
+  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
