@@ -1,0 +1,102 @@
+.states 
+  .states__container {
+    margin-top: 168px;
+  }
+
+  .states__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+  }
+
+  .states__main-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+  }
+
+  .states__main-text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    
+  }
+
+  .states__main-items {
+    max-width: 275px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+  }
+
+  .states__main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .states__main-all-text {
+    margin-top: 24px;
+    margin-bottom: 35px;
+  }
+
+  .states__main-title-one::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url('../img/united-kingdom-map.svg');
+    max-width: 80px;
+    display: block;
+    height: 100px;
+  }
+
+  .states__main-title-two::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url('../img/canada-map.svg');
+    max-width: 80px;
+    display: block;
+    height: 100px;
+  }
+
+  .states__main-title-three::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url('../img/australia-map.svg');
+    max-width: 80px;
+    display: block;
+    height: 100px;
+  }
+
+  .states__main-items:hover{
+    background-color: #333D4B;
+    transition-duration: 1s;
+  }  
+  .states__main-items:hover .states__main-title{
+    color: #fff;
+  }  
+  .states__main-items:hover .states__main-text{
+    color: #fff;
+  }  
+
+  .states__main-items:active{
+    background-color: #FDD6BA;
+    transition-duration: 1s;
+  }  
+  .states__main-items:hover .states__main-title{
+    color: #fff;
+  }  
+  .states__main-items:hover .states__main-text{
+    color: #fff;
+  }  
+
+
+
